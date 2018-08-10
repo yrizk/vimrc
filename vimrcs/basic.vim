@@ -135,11 +135,6 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-" taken from grb's vimrc
-:set t_Co=256 " 256 colors
-:set background=dark
-:color grb256
-
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
