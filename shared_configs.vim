@@ -2,7 +2,7 @@
 nmap <leader>q :q<cr>
 set clipboard=unnamed
 set textwidth=80
-
+set number
 " this is some stuff from gary bernhardt's vimrc
 function! InsertTabWrapper()
     let col = col('.') - 1
